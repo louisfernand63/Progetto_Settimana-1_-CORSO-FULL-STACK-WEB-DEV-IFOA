@@ -1,0 +1,187 @@
+/* Your styles here */
+
+/* IMPOSTAZIONI GENERALI */
+* {
+  box-sizing: border-box;
+}
+
+div.container {
+  margin: auto;
+  text-align: center;
+}
+
+html {
+  font-size: 0.8em;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  padding: 12px;
+  color: #393d41;
+}
+
+header div img,
+header nav,
+table,
+footer p {
+  margin: 20px 0;
+}
+
+/* HEADER */
+header {
+  background: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  padding: 1em;
+}
+
+header div figure img {
+    width: 45%;
+  }
+
+/* MAIN */
+main {
+  background-color: #fff;
+  padding: 1em;
+  margin: 20px 0;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+article div.corso {
+  background-image: url(/assets/images/banner.jpg);
+  background-attachment: scroll;
+  background-position: center;
+  object-fit: cover;
+}
+
+article div.corso h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #25a2c3;
+  margin: 10% 0;
+}
+
+article div.corso h1,
+h4 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #25a2c3;
+  line-height: 1.5;
+}
+
+div.corso p {
+  font-weight: bolder;
+  color: #393d41;
+  font-size: 1em;
+}
+
+article div.corso button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #f04c2f;
+  color: white;
+  font-size: 1em;
+  width: 50%;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10%;
+}
+
+div.tutti {
+  margin-top: 15%;
+}
+
+div.tutti,
+div.lavori {
+  padding: 10px 10px;
+}
+
+div.rotonda img {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+}
+
+div.scegli {
+  margin-top: 15%;
+}
+
+div.lavoro {
+  margin-bottom: 15%;
+}
+
+div.scegli,
+div.lavoro,
+div.epicode {
+  padding: 10px 10px;
+}
+
+div.epicode {
+  color: white;
+  background-color: #e22d0e;
+  text-align: center;
+}
+
+div.epicode h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.6em;
+  line-height: 1.5;
+  margin: 10% 0;
+}
+
+section div.iltuopc,
+section div.imparaora,
+section div.lavorasubito {
+  margin: 10% 5%;
+  border-right: 2px solid #dee1e3;
+  border-bottom: 2px solid #dee1e3;
+  border-left: 2px solid #dee1e3;
+}
+
+section div.iltuopc figure img,
+section div.imparaora figure img,
+section div.lavorasubito figure img {
+  width: 100%;
+}
+
+section div.iltuopc figure figcaption,
+section div.imparaora figure figcaption,
+section div.lavorasubito figure figcaption {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #25a2c3;
+  line-height: 1.5;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  background: #25a2c3;
+  text-align: center;
+  color: #fff;
+  padding: 1em;
+}
+
+footer h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.6em;
+  line-height: 1.5;
+  margin: 10% 0;
+}
+
+footer hr {
+  width: 45%;
+}
+
+footer address a:link {
+  color: white;
+}
