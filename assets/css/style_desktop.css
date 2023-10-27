@@ -1,0 +1,39 @@
+/* Your styles here */
+
+/* IMPOSTAZIONI GENERALI */
+* {
+    box-sizing: border-box;
+  }
+  
+  div.container {
+    margin: auto;
+    text-align: center;
+  }
+  
+  html {
+    font-size: 0.8em;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    padding: 12px;
+    color: #393d41;
+  }
+  
+  header div img,
+  header nav,
+  table,
+  footer p {
+    margin: 20px 0;
+  }
+
+  /* HEADER */
+
+  /* MAIN */
+
+  /* ELEMENTI NEL MAIN - ARTICLE */
+
+  /* FOOTER */
